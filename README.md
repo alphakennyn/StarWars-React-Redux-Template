@@ -7,10 +7,10 @@ So while making a portfolio, I realised there weren't any templates that used th
 I figured, why not make one myself.
 
 ### How it works ###
-In our Redux side, we have an value that increases our number *position* over time or whenever the user scrolls down. We then feed the *position* value as the top value of our intro wrapper.
+In our Redux side, we have an value that increases our number `position` over time or whenever the user scrolls down. We then feed the `position` value as the top value of our intro wrapper.
 
-#TL;DR# 
-wrapper's top value is equal to our redux *position* value
+### TL;DR ### 
+wrapper's top value is equal to our redux `position` value
 
 ### Installation ###
 * npm install
