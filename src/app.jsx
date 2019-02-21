@@ -1,16 +1,11 @@
 import React from "react";
 
-import Main from "./views/main/main";
+import Main from "./main";
 
-
-class App extends React.Component {
-  render() {
+const App = () => {
     return (
-      <div >
         <Main />
-      </div>
     );
-  }
 }
 
 export default App;

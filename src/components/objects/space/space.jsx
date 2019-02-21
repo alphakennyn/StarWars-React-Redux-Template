@@ -3,13 +3,13 @@ import React from "react";
 import Particles from 'react-particles-js';
 import './space.css';
 
-class Space extends React.Component {
+const Space = () => {
 
-  shouldComponentUpdate = () => {
-    return false;
-  }
+  // shouldComponentUpdate = () => {
+  //   return false;
+  // }
 
-  render = () => {
+  // render = () => {
     const starsStyle = {
       width: '100vw',
       height: '100vh',
@@ -83,7 +83,7 @@ class Space extends React.Component {
         style={starsStyle}
       />
     );
-  }
+ // }
 
 }
 
